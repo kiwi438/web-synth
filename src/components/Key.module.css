@@ -1,0 +1,34 @@
+.key {
+  border: 1px solid #333;
+  border-radius: 0 0 4px 4px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 8px;
+  color: black;
+  user-select: none;
+}
+
+.white {
+  width: var(--white-width);
+  height: 160px;
+  background: #fff;
+  color: #333;
+  z-index: 1;
+}
+
+.sharp {
+  position: absolute;
+  width: 28px;
+  height: 100px;
+  background: #1a1a1a;
+  color: #ccc;
+  z-index: 2;
+  top: 0;
+}
+
+.key:active {
+  filter: brightness(0.85);
+}

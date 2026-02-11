@@ -1,0 +1,20 @@
+.synth {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.selectorContainer {
+}
+
+.keys {
+  --white-width: 48px;
+  --sharp-offset: 14px;
+
+  position: relative;
+  display: flex;
+  height: 160px;
+}
